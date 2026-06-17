@@ -1,0 +1,23 @@
+{
+    "name": "aidenkr/internetapi",
+    "description": "A lightweight PHP cURL-based HTTP client for simple REST API requests",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AidenKR\\InternetAPI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AidenKR",
+            "email": "qkrwlsdns123@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
